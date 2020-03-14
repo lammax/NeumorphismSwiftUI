@@ -101,7 +101,8 @@ struct ContentView: View {
                 print("button tapped")
             }) {
                 Image(systemName: "heart.fill")
-                    .foregroundColor(.gray)
+                    .foregroundColor(.white)
+                    .blur(radius: 2)
             }
         .buttonStyle(DarkButtonStyle())
         }
